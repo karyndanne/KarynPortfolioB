@@ -1,7 +1,7 @@
-body {
-    margin: 0px;
+.body {
     background-color: #f6f6f8;
 }
+
 header {
     width: 100%;
     height: 100px;
@@ -10,25 +10,25 @@ header {
     background-repeat: no-repeat;
 
 }
+
 .navButtons {
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
-align-self: center ;
-justify-self: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-self: center ;
+    justify-self: center;
 }
 
-
 button {
-height: 20px;
-font-size: 14px;
-color: #f6f6f8;
-padding: 10px;
-text-align: center;
-text-justify: center;
-background-color: transparent;
-border: none;
+    height: 20px;
+    font-size: 14px;
+    color: #f6f6f8;
+    padding: 10px;
+    text-align: center;
+    text-justify: center;
+    background-color: transparent;
+    border: none;
 }
 
 .button {
@@ -64,6 +64,9 @@ border: none;
 
 
 
+
+
+
 .PicAndName {
     width: 1200px;
     height: 300px;
@@ -80,8 +83,8 @@ border: none;
     align-items: center;
 }
 .Pic img {
-   height: 150px;
-   width: 150px;
+   height: 250px;
+   width: 250px;
     background-color: rgb(109, 109, 13);
     border-radius: 60px;
     }
@@ -104,7 +107,9 @@ border: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 28px;
     line-height: 28px;
-    margin-bottom: -50px;
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 120px;
 }
 .Name img {
     height: 20px;
@@ -114,6 +119,12 @@ border: none;
 }
 
 
+
+
+
+
+
+
 .AboutMe {
     width: 1200px;
     height: 680px;
@@ -121,8 +132,8 @@ border: none;
     margin-left:auto;
     margin-right:auto;
     display: flex;
-    
 }
+
 .About {
     background-color: #f6f6f8;
     width: 600px;
@@ -162,11 +173,14 @@ border: none;
 }
 
 
+
+
+
+
 .PortfolioSnapshot {
     width: 1200px;
-    height: 1080px;
     background-color: #f6f6f8; 
-    margin: 0% auto 0% auto;
+    margin: 80px auto 80px auto;
     color: #1F3D27;
     display: flex;
     flex-direction: column;
@@ -174,12 +188,11 @@ border: none;
 
 .PortfolioSnapshot h1 {
     width: 1200px;
-    height: 80px;
-    background-color: #f6f6f8; 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 64px;
     color: #1F3D27;
     text-align: center;
+    margin-top: 100px;
 }
 .Portfolio {
     width: 1200px;
@@ -191,22 +204,14 @@ border: none;
     justify-content: center;
 }
 
-/*.CaseStudies{
-    background-color: #f6f6f8;
-    color: #1F3D27;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}*/
-
 .CaseStudy {
     width: 1200px;
     height: 300px;
     margin: 0% auto 0% auto;  
     display: flex;
     flex-direction: row;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .CaseStudy img {
     height: 280px;
@@ -228,11 +233,18 @@ border: none;
     margin-top: 50px;
     text-align: right;
 }
+.CaseStudy2 button {
+    align-self: flex-end;
+}
+
+
+
+
 
 
 .Samples {
-    width: 1200px;
-    height: 1080px;
+    width: 100%;
+    height: 860px;
     background-image: url("/images/syed.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -243,24 +255,28 @@ border: none;
     align-items: center;
 }
 .sampleContent {
-    width: 710px;
+    width: 600px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .sampleContent img {
     height: 520px;
     width: 710px;
-    background-color: rgb(49, 49, 25);
     border-radius: 60px;
 }
 .description{
     color: #f6f6f8;
     text-align: center;
     align-items: center;
+    text-shadow: #1F3D27;
 }
 .Samples p {
-    background-color: #99A393;
-    color: black;
+    background-color: #1F3D27;
 }
 .Samples h1 {
+    margin-top: 20px;
     font-size: 64px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
@@ -268,15 +284,10 @@ border: none;
 }
 
 
-.AboutMe {
-    width: 1200px;
-    height: 680px;
-    background-color: #f6f6f8; 
-    margin-left:auto;
-    margin-right:auto;
-    display: flex;
-    
-}
+
+
+
+
 
 /*.imageSpace {
     width: 1440px;
@@ -381,113 +392,91 @@ border: none;
 
 
 .myWork {
-    width: 1200px;
-    background-color: #c9cec6;
+    width: 1440px;
     color: #1F3D27;
-    margin-left:auto;
-    margin-right: auto;
-    /*display: flex;
+    margin:0 auto;
+    display: flex;
     flex-direction: column;
-    align-items: center;*/
-    align-content: center;
-    justify-content: center;
+
 }
-.workGrid {
-    margin: 0px;
-    align-content: center;
-    justify-content: center;
-    padding: 0px;
-    display: grid;
-    grid-template-areas: 
-    "job1 job2"
-    "job3 job4"
-    ;
+
+.carousel slide img {
+    background-color: #99A393;
 }
+.workCarousel img {
+    height: 600px;
+    width: 600px;
+    background-color: #1F3D27 ;
+    padding: 20px;
+    }
+
+
 .myWork h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 64px;
     line-height: 70px;
     margin-bottom: 10px;
+    align-self: center;
 }
+
 .myWork p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
 }
-.myWork img {
-    height: 50px;
-    width: 50px;
+.carousel-item {
+    height: 420px;
+    width: 420px;
     background-color: #1F3D27 ;
-    margin-left: 10px;
-    margin-right: 10px;
-    border: #1F3D27;
-    border-radius: 100%;
+    border-radius: 20px;
     }
-.job1 {
-    grid-area: job1;
-    width: 50%;
-    padding: 0px; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.carousel-indicators {
+ justify-items: center;
 }
-.job2 {
-    grid-area: job2;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#carousel-caption {
+
 }
-.job3 {
-    grid-area: job3;
-    width: 50%;
+.carousel-item active {
+    background-color: #99A393;
+    padding: 10px; 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-content: center;
 }
-.job4 {
-    grid-area: job4;
-    width: 50%;
+
+.carousel-item {
+    background-color: #99A393;
+    padding: 10px; 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-content: center;
 }
 
 
 
 
 .SpaceBreak {
-    width: 1200px;
-    height: 600px;
+    width: 100%
+    height: 720px;
     background-color: #f6f6f8; 
-    margin-left:auto;
-    margin-right:auto;
     display: flex;
     flex-direction: row;
 }
 .SpaceImage {
-    width: 70%;
-    height: 600px;
+    margin-top: 10px;
     box-sizing: border-box;
 }
 .SpaceImage img {
-    height: 600px;
+    height: 720px;
     background-repeat: no-repeat ;
     background-size: cover;
     transform: rotate(90deg);
 }
-.Space {
-    background-color: #f6f6f8;
-    width: 30%;
-}
 
 
 .ContactAndSocial {
-    width: 1200px;
-    height: 600px;
+    width: 100%;
     background-color: #f6f6f8; 
     margin-left:auto;
     margin-right: auto;
@@ -495,6 +484,7 @@ border: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: -100px;
 }
 .Contact {
     background-color: #f6f6f8;
@@ -504,47 +494,41 @@ border: none;
     justify-content: center;
     align-items: center;
 }
+.Contact h3{
+    color: #1F3D27;
+    justify-content: center;
+    text-align: center;
+}
 .ContactAndSocial img {
-    height: 100px;
-    width: 100px;
-     border-radius: 80px;
-     }
-.Contact h1 {
+    height: 200px;
+    width: 200px;
+     border-radius: 80%;
+    }
+
+.Social img {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.ContactAndSocial h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 64px;
     line-height: 70px;
     margin-bottom: 10px;
-}
-.Contact p {
-    font-size: 28px;
-    line-height: 28px;
-    text-align: center;
+    align-self: center;
 }
 
-.Contact img {
-    height: 20px;
-    width: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+.ContactAndSocial h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    color: #99A393;
 }
 
-
-
-
-footer {
-    width: 1440px;
-    height: 100px;
-    background-image: url("/images/syed.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 25px;
-    display: flex;
-    flex-direction: row;
-
-}
-footer p {
+.footer p {
     color: #f6f6f8;
     font-size: 18px;
     margin: 40px  auto;
@@ -567,11 +551,11 @@ footer p {
 
 
 
-/* -- Media -- */
 
 
-@media only screen and (max-width: 600px) {
-      
+/* -- Media -- @media only screen and (max-width: 600px)
+
+ 
 .PicAndName {
     width: 100%;
     height: 300px;
@@ -588,7 +572,7 @@ footer p {
     align-items: center;
 }
 .Pic img {
-   width: 50%;
+   width: 75%;
     background-color: rgb(109, 109, 13);
     border-radius: 60px;
     }
@@ -604,11 +588,11 @@ footer p {
 .Name h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 36px;
-    margin-bottom: 10px;
+    line-height: 40px;
+    margin: 10px;
 }
 .Name p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-bottom: -10px;
 }
 .Name img {
     height: 5px;
@@ -622,12 +606,12 @@ footer p {
 
 
 .AboutMe {
-    width: 100%;
+    width: 1440px;
+    height: 680px;
     background-color: #f6f6f8; 
     margin-left:auto;
     margin-right:auto;
     display: flex;
-    
 }
 .About {
     background-color: #f6f6f8;
@@ -760,15 +744,7 @@ footer p {
     text-align: center;
     color: #f6f6f8;
 }
-.AboutMe {
-    width: 100%;
-    height: 680px;
-    background-color: #f6f6f8; 
-    margin-left:auto;
-    margin-right:auto;
-    display: flex;
-    
-}
+
 
 .SpaceBreak {
     width: 100%;
@@ -817,7 +793,8 @@ footer p {
     width: 25px;
      background-color: rgb(109, 109, 13);
      border-radius: 80%;
-     }
+     cursor: pointer;
+    }
 
 .mySkills {
     width: 100%;
@@ -892,6 +869,7 @@ footer p {
 
 .myWork {
     width: 100%;
+    height: 70vh;
     background-color: #99A393;
     color: #1F3D27;
     margin-left:auto;
@@ -899,9 +877,10 @@ footer p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-content: center;
+    text-align: center;
 }
-.workGrid {
+/*.workGrid {
     width: 100%;
     margin: 0 auto;
     display: grid;
@@ -912,11 +891,42 @@ footer p {
     "job4"
     ;
 }
+.job2 {
+    grid-area: job2;
+    background-color: #0d0d66;
+    width: 100%;
+    padding: 10px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.job3 {
+    background-color: #08083b;
+    width: 75vh;
+    padding: 10px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.job4 {
+    background-color: #4e4e92;
+    width: 75vh;
+    padding: 10px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
 .myWork h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 64px;
     line-height: 70px;
     margin-bottom: 10px;
+    align-self: center;
+
 }
 .myWork p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -931,47 +941,31 @@ footer p {
     border: #1F3D27;
     border-radius: 100%;
     }
-.job1 {
-    grid-area: job1;
+
+.carousel-caption {
+    placeholder width="800";
+    height="400";
+}
+.carousel-item active {
     background-color: #3e3e70;
-    width: 100%;
+    width: 75vh;
     padding: 10px; 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-content: center;
 }
 
-.job2 {
-    grid-area: job2;
+.carousel-item {
     background-color: #0d0d66;
-    width: 100%;
+    width: 75vh;
     padding: 10px; 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-content: center;
 }
-.job3 {
-    grid-area: job3;
-    background-color: #08083b;
-    width: 100%;
-    padding: 10px; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.job4 {
-    grid-area: job4;
-    background-color: #4e4e92;
-    width: 100%;
-    padding: 10px; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .Contact img {
     height: 20px;
@@ -981,23 +975,14 @@ footer p {
     margin-right: 10px;
     border: #1F3D27;
     border-radius: 100%;
+    cursor: pointer;
 }
-footer {
-    width: 100%;
-    height: 100px;
-    background-image: url("/images/syed.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 25px;
-    display: flex;
-    flex-direction: row;
 
-}
-footer p {
+
+.footer p {
     color: #f6f6f8;
     font-size: 18px;
     margin: 40px  auto;
 }
-}
+
+*/
