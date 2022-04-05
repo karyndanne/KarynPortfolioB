@@ -5,7 +5,7 @@ body {
 header {
     width: 100%;
     height: 100px;
-    background-image: url("/PortfolioKaryn_18/images/syed.jpg");
+    background-image: url("/images/syed.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -233,7 +233,7 @@ border: none;
 .Samples {
     width: 1200px;
     height: 1080px;
-    background-image: url("/PortfolioKaryn_18/images/syed.jpg");
+    background-image: url("/images/syed.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin-left:auto;
@@ -534,7 +534,7 @@ border: none;
 footer {
     width: 1440px;
     height: 100px;
-    background-image: url("/PortfolioKaryn_18/images/syed.jpg");
+    background-image: url("/images/syed.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     margin-left: auto;
